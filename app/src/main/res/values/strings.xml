@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VeedBook</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="label_string">Username</string>
+    <string name="placeholder_string">Masukkan username</string>
+    <string name="password_string">Password</string>
+    <string name="lupa_password__string">Lupa Password?</string>
+    <string name="masukkan_password_string">Masukkan password</string>
+    <string name="masuk_string">Masuk</string>
+    <string name="masuk_ek1_string">Masuk</string>
+    <string name="masuk_ek2_string">Masuk</string>
+    <string name="daftar_string">Daftar</string>
+    <string name="anda_belum_punya_akun__string">Anda belum punya akun?</string>
+    <string name="masuk_ek3_string">Masuk</string>
+    <string name="selamat_datang__string">Selamat Datang,</string>
+    <string name="masukkan_akun_anda_untuk_melanjutkan_string">Masukkan akun anda untuk melanjutkan
+    </string>
+</resources>

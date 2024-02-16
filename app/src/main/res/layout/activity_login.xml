@@ -1,0 +1,185 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Login">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/poppinssemi"
+                android:text="Selamat Datang">
+            </TextView>
+
+            <TextView
+                android:layout_width="283dp"
+                android:layout_height="26dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/ungu_veedbook"
+                android:fontFamily="@font/poppins"
+                android:text="masukkan akun anda untuk melanjutkan">
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageView android:id="@+id/logo"
+            android:src="@drawable/logo"
+            android:contentDescription="logo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="35dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="25dp">
+            </TextView>
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/poppinslight"
+                android:hint="Masukkan Username"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="text">
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="10dp">
+            </TextView>
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Masukkan Password"
+                android:fontFamily="@font/poppinslight"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="textPassword">
+            </EditText>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" *Note : Untuk login sebagai admin ke CRUD, Gunakan user = Admin, dan password= 123"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="45dp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_49_shape"
+                android:text="Login"
+                android:textColor="#FFF"
+                android:fontFamily="@font/poppins"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="45dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belum punya akun?"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:id="@+id/registrasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buat Akun"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:textColor="@color/lupa_password__color"
+                    android:onClick="registrasi"
+                    android:clickable="true"
+                    >
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

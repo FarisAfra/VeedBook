@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#26749E</color>
+    <color name="purple_700">#26749E</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_550">#FF6200EE</color>
+    <color name="purple_750">#FF3700B3</color>
+    <color name="grey">#515251</color>
+    <color name="main">#fcfff3</color>
+    <color name="accent1">#efc71d</color>
+    <color name="accent2">#1ca7ec</color>
+    <color name="whiteblurred">#efefef</color>
+
+    <color name="_bg__login1_ek2_color">#FFFFFF</color>
+    <color name="label_color">#374151</color>
+    <color name="ungu_veedbook">#9687EA</color>
+    <color name="placeholder_color">#9CA3AF</color>
+    <color name="lupa_password__color">#185ADB</color>
+    <color name="rectangle_46_color">#A128A9</color>
+    <color name="rectangle_49_color">#9687EA</color>
+    <color name="anda_belum_punya_akun__color">#3B3B3B</color>
+    <color name="selamat_datang__color">#184A2C</color>
+    <color name="masukkan_akun_anda_untuk_melanjutkan_color">#C7C9D9</color>
+</resources>

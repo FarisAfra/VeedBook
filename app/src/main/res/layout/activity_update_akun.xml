@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".UpdateAkun">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Selamat Datang">
+            </TextView>
+
+            <TextView
+                android:layout_width="283dp"
+                android:layout_height="26dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:text="masukkan akun anda untuk melanjutkan">
+            </TextView>
+
+<!--            <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--                android:id="@+id/exit"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginTop="-50dp"-->
+<!--                android:layout_marginLeft="350dp"-->
+<!--                android:background="@color/black"-->
+<!--                android:src="@drawable/baseline_exit_to_app_24"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="exit"/>-->
+
+        </LinearLayout>
+
+        <ImageView android:id="@+id/logo"
+            android:src="@drawable/logo"
+            android:contentDescription="logo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap:"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="25dp">
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/edt_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Nama Lengkap"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="text">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="10dp">
+            </TextView>
+            <EditText
+                android:id="@+id/edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Username"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="text">
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="10dp">
+            </TextView>
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="textCapSentences">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_49_shape"
+                android:text="Update"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="45dp"/>
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="45dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:gravity="center_horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Sudah punya akun?"-->
+<!--                    android:textColor="@color/black">-->
+<!--                </TextView>-->
+<!--                <TextView-->
+<!--                    android:id="@+id/lojin"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Login Sekarang"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/lupa_password__color"-->
+<!--                    android:onClick="lojin"-->
+<!--                    android:clickable="true"-->
+<!--                    >-->
+<!--                </TextView>-->
+
+<!--            </LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

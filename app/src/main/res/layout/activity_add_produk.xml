@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProduk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Tambah Produk">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinssemi"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp"
+                android:text="Buku Veedbook">
+            </TextView>
+
+            <TextView
+                android:layout_width="283dp"
+                android:layout_height="26dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/ungu_veedbook"
+                android:text="masukkan data buku veedbook">
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageView android:id="@+id/logo"
+            android:src="@drawable/logo"
+            android:contentDescription="logo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/edittext_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Judul Buku"
+                android:fontFamily="@font/poppinslight"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="text">
+
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edittext_penulis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Penulis"
+                android:fontFamily="@font/poppinslight"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="text">
+
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edittext_deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Deskripsi"
+                android:fontFamily="@font/poppinslight"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="textLongMessage">
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edittext_harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Harga"
+                android:fontFamily="@font/poppinslight"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="number">
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edittext_spek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/poppinslight"
+                android:hint="Spesifikasi"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="text">
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edittext_kategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_42__stroke_"
+                android:layout_marginHorizontal="45dp"
+                android:layout_marginTop="7dp"
+                android:hint="Kategori"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinslight"
+                android:paddingLeft="10dp"
+                android:inputType="text">
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/addbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_49_shape"
+                android:text="Tambah"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="45dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
